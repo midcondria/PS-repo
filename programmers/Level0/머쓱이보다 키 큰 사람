@@ -1,0 +1,6 @@
+function solution(array, height) {
+    let answer = 0;
+    array.forEach((el) => {
+        count += height < el ? 1 : 0;})
+    return answer;
+}
